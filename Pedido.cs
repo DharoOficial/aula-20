@@ -7,11 +7,17 @@ namespace Aula_20
 
 
 
-        public string cliente { get; set; }
-        public string restaurante { get; set; }
+        public string cliente1 = "jackan";
+        public string restaurante1 { get; set; }
         public string formatoDePagamento { get; set; }
         public bool pedidoPago { get; set; }
-        public int valorPedido { get; set; }
+        public int valorPedido = 30;
+        public retaurante restaurante { get; set; }
+        public cliente cliente { get; set; }
+
+       
+        
+
         public void EntregarPedido()
         {
             if( pedidoPago == true ){
